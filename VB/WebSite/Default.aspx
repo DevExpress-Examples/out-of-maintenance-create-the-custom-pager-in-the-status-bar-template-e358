@@ -1,8 +1,8 @@
 <%-- BeginRegion TagPrefix and page properties --%>
 <%@ Page Language="vb" AutoEventWireup="true" CodeFile="Default.aspx.vb" Inherits="Grid_ColumnResizing_OverflowHidden_DataItemTemplate" %>
-<%@ Register Assembly="DevExpress.Web.ASPxEditors.v8.1" Namespace="DevExpress.Web.ASPxEditors"
+<%@ Register Assembly="DevExpress.Web.v13.1" Namespace="DevExpress.Web.ASPxEditors"
 	TagPrefix="dxe" %>
-<%@ Register Assembly="DevExpress.Web.ASPxGridView.v8.1" Namespace="DevExpress.Web.ASPxGridView"  TagPrefix="dxwgv" %>
+<%@ Register Assembly="DevExpress.Web.v13.1" Namespace="DevExpress.Web.ASPxGridView"  TagPrefix="dxwgv" %>
 
 <%-- EndRegion --%>
 
