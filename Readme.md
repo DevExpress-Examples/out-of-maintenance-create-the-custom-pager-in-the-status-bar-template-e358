@@ -5,6 +5,9 @@
 * [Default.aspx.cs](./CS/WebSite/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/WebSite/Default.aspx.vb))
 <!-- default file list end -->
 # Create the custom pager in the status bar template
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/e358/)**
+<!-- run online end -->
 
 
 <p>You can totally emulate the pager functionality in a grid template by using the Ajax grid methods.</p><p><strong>See Also:</strong><br />
