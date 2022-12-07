@@ -18,7 +18,7 @@ Partial Public Class Grid_ColumnResizing_OverflowHidden_DataItemTemplate
 			grid.SettingsPager.PageSize = CInt(Fix(Session(GridCustomPageSizeName)))
 		End If
 	End Sub
-	Protected Sub grid_CustomCallback(ByVal sender As Object, ByVal e As DevExpress.Web.ASPxGridView.ASPxGridViewCustomCallbackEventArgs)
+	Protected Sub grid_CustomCallback(ByVal sender As Object, ByVal e As DevExpress.Web.ASPxGridViewCustomCallbackEventArgs)
 		Dim newPageSize As Integer
 		If (Not Integer.TryParse(e.Parameters, newPageSize)) Then
 			Return

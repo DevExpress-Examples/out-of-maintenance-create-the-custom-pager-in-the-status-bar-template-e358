@@ -16,7 +16,7 @@ public partial class Grid_ColumnResizing_OverflowHidden_DataItemTemplate : Syste
             grid.SettingsPager.PageSize = (int)Session[GridCustomPageSizeName];
         }
     }
-    protected void grid_CustomCallback(object sender, DevExpress.Web.ASPxGridView.ASPxGridViewCustomCallbackEventArgs e) {
+    protected void grid_CustomCallback(object sender, DevExpress.Web.ASPxGridViewCustomCallbackEventArgs e) {
         int newPageSize;
         if(!int.TryParse(e.Parameters, out newPageSize)) return;
         grid.SettingsPager.PageSize = newPageSize;
